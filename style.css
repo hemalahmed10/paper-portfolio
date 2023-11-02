@@ -1,0 +1,688 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "editorial new light";
+    
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    ::selection{
+        background-color: #1b1b19;
+        color: #c4bcb2;
+    }
+}
+/* --------xxx-------------xxx----- */
+
+.loader{
+    height: 100%;
+    width: 100%;
+    background-color: #c4bcb2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loaderwrapper{
+    height: 25%;
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    
+}
+.wrapperelem{
+    /* height: 100%;
+    width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.elem3 h1{
+    font-family: "canopee";
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 3.5vw;
+}
+/* ------xxx-------------------xxx------- */
+
+#main{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #c4bcb2;
+    position: relative;
+}
+.nav{
+    height: 5vw;
+    width: 100%;
+    background-color: #c4bcb2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    z-index: 99;
+}
+.nav span{
+    margin: 1vw;
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4vw;
+    margin: 10px;
+    margin: 1vw;
+}
+.nav a svg{
+    height: 25px;
+    margin: 1vw;
+}
+/* --------------- nav done ------------- */
+
+.hero{
+    height: 119vh;
+    width: 100%;
+    position: relative;
+    top: 1vw;
+    background-color: #c4bcb2;
+}
+.herotop{
+    height: 23vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.toph2{
+    font-family: "canopee";
+    font-size: 2vw;
+    font-weight: 400;
+}
+.topp{
+    font-size: 1.2vw;
+}
+.topleft{    
+    height: 100%;
+    width: 36%;
+    border-right: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+.topleft img{
+    height: 47%;
+    width: 80%;
+    object-fit: cover;
+}
+.topmiddle{    
+    height: 100%;
+    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+.topmiddle h3 span{
+    font-family: "canopee";
+    font-size: 1.4vw;
+    font-weight: 600;
+    letter-spacing: 0.1vw;
+}
+.topmiddle h1{
+    font-family: "canopee";
+    font-size: 5vw;
+    font-weight: 500;
+}
+.topmiddle h3{
+    font-size: 2.5vw;
+    font-weight: 500;
+    text-align: center;
+}
+.topmiddle p{
+    margin-top: 0.7vw;
+    font-size: 1.2vw;
+}
+.topmiddle p span{
+    font-weight: 600;
+}
+.topright{    
+    height: 100%;
+    width: 36%;
+    border-left: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+.topright img{
+    height: 47%;
+    width: 80%;
+    object-fit: cover;
+}
+.herobottom{
+    height: 69.3vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mirandabackground{
+    height: 92%;
+    width: 96%;
+    background-color: #1b1b19;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.mirandabackground h1{
+    color: #c4bcb2;
+    font-size: 37vw;
+    font-family: "canopee";
+    font-weight: 500;
+    letter-spacing: 3vw;
+    position: relative;
+    top: 10px;
+    left: 2vw;
+}
+/* ---hero done------- */
+
+.page1{
+    position: relative;
+    top: 5vw;
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    background-color: #c4bcb2;
+}
+.page1left{
+    width: 34%;
+    height: 100%;
+    border-right: 1px solid #1b1b19;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.page1lefttop{
+    height: 25%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.page1lefttop h2{
+    font-family: "canopee";
+    font-size: 7vw;
+    font-weight: 500;
+
+}
+.page1lefttop h1{
+    font-family: "canopee";
+    font-size: 11vw;
+    font-weight: 500;
+
+}
+.page1leftmiddle{
+    height: 50%;
+    width: 90%;
+}
+.page1leftmiddle img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.page1leftbottom{
+    height: 25%;
+    width: 90%;
+}
+.page1leftbottom p{
+    position: relative;
+    font-size: 2.25vw;
+    line-height: 2.7vw;
+    text-align: left;
+    top: 1vw;
+}
+.page1right{
+    width: 66%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.page1rightimg{
+    height: 53%;
+    width: 94%;
+}
+.page1rightimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.page1righttext{
+    height: 47%;
+    width: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page1righttext h2{
+    font-family: "canopee";
+    font-weight: 500;
+    font-size: 8vw;
+    letter-spacing: -3px;
+    line-height: 6.5vw;
+    
+}
+/* ---page1----------done------- */
+
+.page2{
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    top: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #c4bcb2;
+}
+.page2left{
+    height: 75%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.jsdiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 130px;
+    width: 220px;
+    
+}
+.page2left h1{
+    font-family: "Canopee";
+    color: #c4bcb2;
+    font-weight: 600;
+    font-size: 14vw;
+    letter-spacing: 8px;
+}
+.page2right{
+    height: 90%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.page2right img{
+    height: 95%;
+    width: 94%;
+}
+/* -------------page2--------done------------- */
+
+.page3{
+    height: 120vh;
+    width: 100%;
+    background-color: #c4bcb2;
+    position: relative;
+    top: 7vw;
+    display: flex;
+}
+.page3left{
+    height: 98%;
+    width: 70%;
+    border-right: 1px solid black;
+}
+.page3lefttop{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    
+}
+.page3lefttopleft{
+    height: 100%;
+    width: 40%;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+
+}
+.page3lefttopleft h2{
+    font-family: "Canopee";
+    font-size: 4.5vw;
+    font-weight: 400;
+    letter-spacing: -.05em;
+    text-align: center;
+}
+.page3lefttopleft h5{
+    font-size: 2.6vw;
+    line-height: 3vw;
+    text-align: center;
+    font-weight: 500;
+}
+.page3lefttopleft p{
+    text-align: center;
+}
+.page3lefttopleft p span{
+    font-weight: 600;
+}
+.page3lefttopright{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    
+}
+.page3lefttopright img{
+    height: 50%;
+    width: 70%;
+    margin-left: 4vw;
+}
+.page3lefttopright h2{
+    margin-left: 4vw;
+    font-family: "Canopee";
+    font-size: 2vw;
+}
+.page3lefttopright p{
+    margin-left: 4vw;
+}
+.page3leftbottom{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.swiper {
+    width: 98%;
+    height: 98%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: #c4bcb2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .slidername{
+    height: 7vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slidername h2{
+    font-family: "Canopee";
+    font-size: 3vw;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+.page3right{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.page3right h2 {
+    font-family: "Canopee";
+    font-size: 6.5vw;   
+    position: relative;
+    bottom:2vw;  
+    letter-spacing: -5px;
+    line-height: 58px;
+    font-weight: 500;
+}
+.page3right h1 {
+    font-family: "Canopee";
+    font-size: 9vw;
+    position: relative;
+    bottom:2vw; 
+}
+.page3right p {
+    font-size: 1.8vw;
+    text-align: left;
+    margin-left: 4vw;
+}
+.page3right h3 {
+    font-family: "Canopee";
+    font-size: 6vw;  
+    position: relative;
+    top:2vw;  
+    cursor: pointer;
+}
+/* ------xxx---------------------xxx-------- */
+
+.page4upper{
+    height: 15vh;
+    width: 100%;
+    position: relative;
+    top: 9vw;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap: 3vw;
+    padding: 8vw;
+}
+.page4upper h1{
+    font-family: "Canopee";
+    font-size: 4vw;
+    font-weight: 600;
+}
+.page4{
+    height: 100vh;
+    width: 100%;
+    background-color: #c4bcb2;
+    position: relative;
+    top: 9vw;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap: 3vw;
+
+    
+}
+.page4left{
+    height: 97%;
+    width: 35%;
+
+}
+.leftelem{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vw;
+    padding: 2vw 2vw;
+}
+.leftelem h1{
+    font-family: "Canopee";
+    font-size: 3.5vw;
+    font-weight: 500;
+}
+.leftelem p{
+    font-size: 1.4vw;
+}
+.page4right{
+    height: 95%;
+    width: 35%;
+}
+.page4img{
+    height: 100%;
+    width: 88%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+}
+.page4right img{
+    height: 100%;
+    width: 100%;
+}
+.htmlimg, .cssimg, .jsimg {
+    position: absolute;
+    opacity: 0;
+}
+/* --------xxx------------------xxx-------- */
+
+.page5{
+    height: 36vh;
+    width: 100%;
+    background-color: rgb(26 27 27);
+    position: relative;
+    top: 9vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.page5left{
+    height: 60%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .7vw;
+}
+.page5left div h2{
+    margin-left: 3vw;
+    text-transform: capitalize;
+    color: #c4bcb2; 
+    font-size: 2vw;  
+    letter-spacing: 1px; 
+}
+.page5left div h3{
+    margin-left: 3vw;
+    color: #c4bcb2;
+    font-weight: 400;
+    letter-spacing: 1px;
+      
+}
+.page5middle{
+    height: 60%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.page5middle img{
+    height: 82%;
+    width: 30%;
+}
+.page5middle p{
+    color: #c4bcb2;
+}
+.page5right{
+    height: 90%;
+    width: 30%;
+
+}
+.deck {
+    position: absolute;
+    width: 9em;
+    height: 10em;
+    top: 9vw;
+    right: 11.5vw;
+    margin: -6.5em 0 0 -5em;
+    -webkit-backface-visibility: hidden;
+    font-family: 'Ubuntu', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-align: center;
+}
+.deck__item {
+    line-height: 50px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: .3em;
+  border: 0.1em solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.3), inset 0 6em 6em rgba(255, 255, 255, 0.1);
+  transform-origin: 90% 92%;
+  transition: .3s;
+  list-style: none;
+}
+.deck__item:hover ~ .deck__item {
+  transform: rotate(120deg);
+}
+.deck__item:last-of-type:after {
+  content: "";
+  position: absolute;
+  left: 90%;
+  top: 92%;
+  border-radius: 50%;
+  width: 1.2em;
+  height: 1.2em;
+  background: white;
+  margin: -.6em 0 0 -.6em;
+  box-shadow: inset 0 1px 1px white, inset 0 -0.3em 0.2em #dddcdb, 0 0 0.6em rgba(0, 0, 0, 0.2);
+}
+.deck__item:last-of-type:before {
+  content: "";
+  position: absolute;
+  right: .4em;
+  bottom: .9em;
+  width: 1.1em;
+  height: .15em;
+  background: silver;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+.deck__link {
+  text-decoration: none;
+  display: block;
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+.deck__icon {
+  font-family: 'FontAwesome', sans-serif;
+  font-size: 4em;
+  color: black;
+  color: rgba(0, 0, 0, 0.6);
+  display: block;
+  margin: .5em auto;
+}
+.deck__item--facebook {
+  background: #3b5998;
+  transform: rotate(-20deg);
+}
+.deck__item--github {
+  background: #4183c4;
+  transform: rotate(-10deg);
+}
+.deck__item--twitter {
+  background: #00a0d1;
+  transform: rotate(0deg);
+}
+.deck__item--linkedin {
+  background: #0e76a8;
+  transform: rotate(10deg);
+}
+/* ----- xxxx --------------------------------- xxxx ------- */
+
